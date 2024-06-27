@@ -1,0 +1,8 @@
+:root{
+    --max-width: 1268px;
+    --margin-left: 64px;
+    --margin-right: 64px;
+    --font: Inter, "sans-serif";
+    --color: rgb(33, 49, 60);
+    --color-green: #0aad0a;
+}

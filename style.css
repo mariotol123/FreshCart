@@ -1,0 +1,12 @@
+@import url("./base.css");
+@import url("./footer.css");
+@import url("./header.css");
+@import url("./variable.css");
+@import url("./css/span.css");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
