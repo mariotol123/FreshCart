@@ -1,49 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body> 
-        <div class="div-header">
-            <div class="container-span">
-                Super Value Deals - Save more with coupons
-                <div class="svg-span">
-                    <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#selectedlang)">
-                           <path d="M0 0.5H16V12.5H0V0.5Z" fill="#012169"></path>
-                           <path d="M1.875 0.5L7.975 5.025L14.05 0.5H16V2.05L10 6.525L16 10.975V12.5H14L8 8.025L2.025 12.5H0V11L5.975 6.55L0 2.1V0.5H1.875Z" fill="white"></path>
-                           <path d="M10.6 7.525L16 11.5V12.5L9.225 7.525H10.6ZM6 8.025L6.15 8.9L1.35 12.5H0L6 8.025ZM16 0.5V0.575L9.775 5.275L9.825 4.175L14.75 0.5H16ZM0 0.5L5.975 4.9H4.475L0 1.55V0.5Z" fill="#C8102E"></path>
-                           <path d="M6.025 0.5V12.5H10.025V0.5H6.025ZM0 4.5V8.5H16V4.5H0Z" fill="white"></path>
-                           <path d="M0 5.325V7.725H16V5.325H0ZM6.825 0.5V12.5H9.225V0.5H6.825Z" fill="#C8102E"></path>
-                        </g>
-                        <defs>
-                           <clipPath id="selectedlang">
-                              <rect width="16" height="12" fill="white" transform="translate(0 0.5)"></rect>
-                           </clipPath>
-                        </defs>
-                    </svg>
-                    <p>English</p>
-                </div>
-            </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Width/width.css" />
+    <link rel="stylesheet" href="./Header/header.css">
+    <link rel="stylesheet" href="./Nav/nav.css">
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="container">
+        <div class="container-hero">
+          Super Value Deals - Save more with coupons
+          <div class="svg-span">
+            <svg
+              width="16"
+              height="13"
+              viewBox="0 0 16 13"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#selectedlang)">
+                <path d="M0 0.5H16V12.5H0V0.5Z" fill="#012169"></path>
+                <path
+                  d="M1.875 0.5L7.975 5.025L14.05 0.5H16V2.05L10 6.525L16 10.975V12.5H14L8 8.025L2.025 12.5H0V11L5.975 6.55L0 2.1V0.5H1.875Z"
+                  fill="white"
+                ></path>
+                <path
+                  d="M10.6 7.525L16 11.5V12.5L9.225 7.525H10.6ZM6 8.025L6.15 8.9L1.35 12.5H0L6 8.025ZM16 0.5V0.575L9.775 5.275L9.825 4.175L14.75 0.5H16ZM0 0.5L5.975 4.9H4.475L0 1.55V0.5Z"
+                  fill="#C8102E"
+                ></path>
+                <path
+                  d="M6.025 0.5V12.5H10.025V0.5H6.025ZM0 4.5V8.5H16V4.5H0Z"
+                  fill="white"
+                ></path>
+                <path
+                  d="M0 5.325V7.725H16V5.325H0ZM6.825 0.5V12.5H9.225V0.5H6.825Z"
+                  fill="#C8102E"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="selectedlang">
+                  <rect
+                    width="16"
+                    height="12"
+                    fill="white"
+                    transform="translate(0 0.5)"
+                  ></rect>
+                </clipPath>
+              </defs>
+            </svg>
+            <p>English</p>
+          </div>
         </div>
-        <header>
+    </div>
+</section>
+
+<!-- ------------------------ HEADER -------------------------- -->
+
+<header class="wrapper">
+    <div class="container">
+        <div class="container-header">
+            <div class="logo">
+                <img
+                src="https://freshcart.codescandy.com/assets/images/logo/freshcart-logo.svg"
+                alt=""
+                />
+            </div>
+            <div class="form-location">
+                    <input
+                      class="form-control"
+                      type="search"
+                      placeholder="Search for products"
+                    />
+                  <button class="button-header">
+                    <svg
+                      width="20px"
+                      height="15px"
+                      viewBox="-12 0 117 117"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <title />
+        
+                      <desc />
+        
+                      <defs />
+        
+                      <g
+                        fill="none"
+                        fill-rule="evenodd"
+                        id="Page-1"
+                        stroke="none"
+                        stroke-width="1"
+                      >
+                        <g fill-rule="nonzero" id="pin">
+                          <path
+                            d="M46.5,0.4 C21,0.4 0.2,21.2 0.2,46.8 C0.2,49.9 0.5,53 1.1,56 C1.1,56.2 1.2,56.4 1.2,56.7 C6.3,79.6 42.2,114 43.7,115.4 C44.5,116.2 45.5,116.5 46.5,116.5 C47.5,116.5 48.5,116.1 49.3,115.4 C50.8,113.9 86.5,79.6 91.6,57.2 C91.6,57 91.7,56.8 91.7,56.6 C92.4,53.4 92.7,50.1 92.7,46.8 C92.8,21.2 72,0.4 46.5,0.4 Z M83.7,55.1 C83.7,55.3 83.7,55.2 83.7,55.4 C79.9,72 55,98.2 46.5,106.7 C38,98.2 13,72 9.2,55 C9.2,54.8 9.2,54.7 9.1,54.5 C8.6,51.9 8.3,49.3 8.3,46.7 C8.3,25.7 25.4,8.5 46.4,8.5 C67.4,8.5 84.6,25.6 84.6,46.7 C84.6,49.6 84.3,52.4 83.7,55.1 Z"
+                            fill="#4A4A4A"
+                            id="Shape"
+                          />
+        
+                          <path
+                            d="M46.5,20 C34.2935484,20 24.5,29.9354839 24.5,42 C24.5,54.0645161 34.4354839,64 46.5,64 C58.5645161,64 68.5,54.2064516 68.5,42 C68.5,29.7935484 58.7064516,20 46.5,20 Z M46.5,52.5032258 C40.6806452,52.5032258 35.9967742,47.8193548 35.9967742,42 C35.9967742,36.1806452 40.6806452,31.4967742 46.5,31.4967742 C52.3193548,31.4967742 57.0032258,36.1806452 57.0032258,42 C57.0032258,47.8193548 52.3193548,52.5032258 46.5,52.5032258 Z"
+                            fill="#17AB13"
+                            id="Shape"
+                          />
+                        </g>
+                      </g>
+                    </svg>
+                    Location
+                  </button>
+            </div>
+                  <div class="header-right">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
+                          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                       </svg>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+                          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="12" cy="7" r="4"></circle>
+                       </svg>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag">
+                          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                          <line x1="3" y1="6" x2="21" y2="6"></line>
+                          <path d="M16 10a4 4 0 0 1-8 0"></path>
+                       </svg>
+                  </div>
+      </div>
+    </header>
+
+    <nav class="wrapper">
+        <div class="container">
+            <div class="nav-link">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                     </svg>All Departments</a>
+                <a href="">Home</a>
+                <a href="">Shop</a>
+                <a href="">Stores</a>
+                <a href="">Mega Menu</a>
+                <a href="">Pages</a>
+                <a href="">Account</a>
+                <a href="">Dashboard</a>
+                <a href="">Docs</a>
+              </div>
+        </div>
+    </nav>
+
     
-        </header>
-    
-    
-        <main>
-    
-        </main>
-    
-    
-        <footer>
-    
-        </footer>
-</body>
+    <hr>
+
+    <main></main>
+
+    <footer></footer>
+  </body>
 </html>

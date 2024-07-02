@@ -1,8 +1,8 @@
-@import url("./base.css");
+@import url("./Base/base.css");
 @import url("./footer.css");
 @import url("./header.css");
-@import url("./variable.css");
-@import url("./css/span.css");
+@import url("./variables/variabiles.css");
+@import url("./Span/span.css");
 
 
 *{

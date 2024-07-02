@@ -1,0 +1,33 @@
+.container-header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+
+    .form-location{
+        margin-right: 200px;
+        
+        input{
+            width: 500px;
+            padding: 13px;
+            border-radius: 15px;
+            font-size: 1rem;
+        }
+
+        .button-header{
+            justify-content: center;
+            gap: 5px;
+            padding: 13px;
+            border-radius: 15px;
+            font-size: 1rem;
+            background-color: white;
+        }
+    }
+
+    .header-right{
+        display: flex;
+        gap: 20px;
+    }
+}

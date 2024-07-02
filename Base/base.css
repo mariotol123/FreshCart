@@ -1,0 +1,44 @@
+.size-containter {
+  max-width: var(--max-width);
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
+}
+
+/* H2 hero*/
+.font-h2-xl {
+  font-family: var(--font);
+  font-size: 48px;
+  line-height: 58px;
+  color: rgb(0, 30, 43);
+}
+
+.font-h3-xm {
+  font-family: var(--font);
+  font-size: 23px;
+  line-height: 29px;
+  color: var(--color);
+}
+
+/* Pree Footer */
+.font-h3-xs {
+  font-family: var(--font);
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color);
+}
+
+/* Popular Products - Fetured Categories - Daily Best Sells */
+.font-h3-xl-black {
+  font-family: var(--font);
+  font-size: 25px;
+  line-height: 29px;
+  color: var(--color);
+}
+
+/* Daily Best Sells */
+.font-h3-xl-white {
+  font-family: var(--font);
+  font-size: 25px;
+  line-height: 29px;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=base.css.map */
