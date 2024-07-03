@@ -34,6 +34,7 @@ main .menu_2 div:nth-child(2) {
 }
 main .menu_2 div:nth-child(2) p {
   border: 1px solid black;
+  border-color: #dfe2e1;
   padding: 10px;
   border-radius: 5%;
 }
@@ -52,6 +53,7 @@ main .card_container .card {
   gap: 10px;
   padding: 5px 10px;
   width: 200px;
+  border-color: #dfe2e1;
 }
 main .card_container .card h5 {
   font-size: 16px;
@@ -68,6 +70,7 @@ main .pages_container ul {
 main .pages_container ul li {
   list-style: none;
   border: 1px solid black;
+  border-color: #dfe2e1;
   border-radius: 4%;
   padding: 10px;
 }
