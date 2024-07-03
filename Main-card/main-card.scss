@@ -71,6 +71,12 @@ main {
                 color: gray;
                 font-size: 14px;
             }
+
+            button {
+                background-color: green;
+                color: white;
+                width: 50px;
+            }
         }
     }
 
@@ -87,11 +93,22 @@ main {
                 border-radius: 4%;
                 padding: 10px;
 
-               
+                &:nth-child(1) {
+                    background-color: gray;
+                    a {
+                        color: black;
+                    }
+                }
+
+                &:nth-child(2) {
+                    background-color: green;
+                    a {color: white;}
+                }
 
                 a {
                     padding: 5px;
                 }
+
             }
         }
     }
