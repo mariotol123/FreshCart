@@ -67,6 +67,10 @@ main .card_container .card button {
   color: white;
   width: 50px;
 }
+main .card_container .card:hover {
+  border-color: green;
+  transition: ease 0.4s;
+}
 main .pages_container ul {
   display: flex;
   gap: 10px;

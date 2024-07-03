@@ -77,6 +77,11 @@ main {
                 color: white;
                 width: 50px;
             }
+
+            &:hover {
+                border-color: green;
+                transition: ease 0.4s;
+            }
         }
     }
 
