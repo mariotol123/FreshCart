@@ -12,6 +12,14 @@
   color: rgb(0, 30, 43);
 }
 
+.font-p-footer {
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: rgb(0, 30, 43);
+}
+
 .font-h3-xm {
   font-family: var(--font);
   font-size: 23px;

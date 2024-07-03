@@ -1,21 +1,17 @@
-@import url("../variables/variabiles.css");
+@import "../variables/variabiles.scss";
 
 
 a{
     text-decoration: none;
     color: #5c6c75;
     transition: ease-in-out .15s;
-    font-family: Inter;
+    font-family: $font;
     font-size: 15px;
     line-height: 22px;
     font-weight: 500;
 
     &:hover{
-        color: #0aad0a;
-    }
-
-    &:first-child{
-        
+        color: $color-green;
     }
 }
 
@@ -41,7 +37,7 @@ a{
 
                 h6{
                     font-size: 16px;
-                    font-family: Inter;
+                    font-family: $font;
                     font-weight: 600;
                     line-height: 17px;
                     margin-bottom: 15px;
@@ -61,37 +57,22 @@ a{
             }
 
             .payments-method{
-                max-width: 1280px;
+                max-width: $max-width;
                 margin: 0 auto;
                 display: flex;
                 justify-content: space-between;
-                padding: 20px;
+                padding: 20px 0;
 
                 .payments-method-left{
                     display: flex;
                     align-items: center;
                     gap: 20px;
-
-                    p{
-                        font-family: Inter;
-                        font-size: 14px;
-                        line-height: 22px;
-                        font-weight: 500;
-                        color: rgb(0, 30, 43);
-                    }
                 }
 
                 .payments-method-right{
                     display: flex;
                     gap: 20px;
                     align-items: center;
-                    p{
-                        font-family: Inter;
-                        font-size: 14px;
-                        line-height: 22px;
-                        font-weight: 500;
-                        color: rgb(0, 30, 43);
-                    }
                 }
             }
         }

@@ -1,9 +1,8 @@
-@import url("../variables/variabiles.css");
 a {
   text-decoration: none;
   color: #5c6c75;
   transition: ease-in-out 0.15s;
-  font-family: Inter;
+  font-family: Inter, "sans-serif";
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
@@ -11,6 +10,7 @@ a {
 a:hover {
   color: #0aad0a;
 }
+
 .wrapper .container-footer {
   width: 100%;
   background-color: #f0f3f2;
@@ -31,7 +31,7 @@ a:hover {
 }
 .wrapper .container-footer .a-footer-container .a-footer h6 {
   font-size: 16px;
-  font-family: Inter;
+  font-family: Inter, "sans-serif";
   font-weight: 600;
   line-height: 17px;
   margin-bottom: 15px;
@@ -50,29 +50,15 @@ a:hover {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0;
 }
 .wrapper .container-footer .payments-method .payments-method-left {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.wrapper .container-footer .payments-method .payments-method-left p {
-  font-family: Inter;
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 500;
-  color: rgb(0, 30, 43);
-}
 .wrapper .container-footer .payments-method .payments-method-right {
   display: flex;
   gap: 20px;
   align-items: center;
-}
-.wrapper .container-footer .payments-method .payments-method-right p {
-  font-family: Inter;
-  font-size: 14px;
-  line-height: 22px;
-  font-weight: 500;
-  color: rgb(0, 30, 43);
 }/*# sourceMappingURL=footer.css.map */
