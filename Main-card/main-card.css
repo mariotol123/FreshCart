@@ -73,6 +73,7 @@ main .card_container .card p {
   color: gray;
   font-size: 14px;
   padding-left: 8px;
+  margin-bottom: 10px;
 }
 main .card_container .card button {
   background-color: #0aad0a;
