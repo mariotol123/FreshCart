@@ -1,1 +1,120 @@
 @import "../variables/variabiles.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: $font;
+
+    .menu {
+        padding: 20px;
+        padding-bottom: 25px;
+
+        a {
+            color: green;
+        }
+    }
+
+    .title_container {
+        background-color: #f0f3f2;
+        padding: 45px;
+        border-radius: 10px;
+
+        h2 {
+            font-size: 32px;
+        }
+    }
+
+    .menu_2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+
+        div:nth-child(2) {
+            display: flex;
+            gap: 10px;
+            p {
+                border: 1px solid black;
+                border-color: #dfe2e1;
+                padding: 10px;
+                border-radius: 5%;
+            }
+        }
+    }
+
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid black;
+            border-radius: 2%;
+            gap: 10px;
+            padding: 5px 10px;
+            width: 200px;
+            border-color: #dfe2e1;
+
+            h5 {
+                font-size: 16px;
+            }
+
+            p {
+                color: gray;
+                font-size: 14px;
+            }
+
+            button {
+                background-color: green;
+                color: white;
+                width: 50px;
+            }
+
+            &:hover {
+                border-color: green;
+                transition: ease 0.4s;
+            }
+        }
+    }
+
+    .pages_container {
+        ul {
+            display: flex;
+            gap: 10px;
+            padding: 20px;
+
+            li {
+                list-style: none;
+                border: 1px solid black;
+                border-color: #dfe2e1;
+                border-radius: 4%;
+                padding: 10px;
+
+                &:nth-child(1) {
+                    background-color: gray;
+                    a {
+                        color: black;
+                    }
+                }
+
+                &:nth-child(2) {
+                    background-color: green;
+                    a {color: white;}
+                }
+
+                a {
+                    padding: 5px;
+                }
+
+            }
+        }
+    }
+}

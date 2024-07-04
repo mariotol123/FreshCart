@@ -1,3 +1,4 @@
+
 main .wrapper .container .link-main {
   display: flex;
   gap: 10px;
@@ -166,4 +167,4 @@ main .wrapper .container .container-main .right .share-button {
   border: 1px solid black;
   width: 90px;
   margin-top: 20px;
-}/*# sourceMappingURL=main.css.map */
+}

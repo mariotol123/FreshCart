@@ -1,3 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-
-/*# sourceMappingURL=main-card.css.map */
+main {
+  font-family: Inter, "sans-serif";
+}
+main .menu {
+  padding: 20px;
+  padding-bottom: 25px;
+}
+main .menu a {
+  color: green;
+}
+main .title_container {
+  background-color: #f0f3f2;
+  padding: 45px;
+  border-radius: 10px;
+}
+main .title_container h2 {
+  font-size: 32px;
+}
+main .menu_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+main .menu_2 div:nth-child(2) {
+  display: flex;
+  gap: 10px;
+}
+main .menu_2 div:nth-child(2) p {
+  border: 1px solid black;
+  border-color: #dfe2e1;
+  padding: 10px;
+  border-radius: 5%;
+}
+main .card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+main .card_container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 2%;
+  gap: 10px;
+  padding: 5px 10px;
+  width: 200px;
+  border-color: #dfe2e1;
+}
+main .card_container .card h5 {
+  font-size: 16px;
+}
+main .card_container .card p {
+  color: gray;
+  font-size: 14px;
+}
+main .card_container .card button {
+  background-color: green;
+  color: white;
+  width: 50px;
+}
+main .card_container .card:hover {
+  border-color: green;
+  transition: ease 0.4s;
+}
+main .pages_container ul {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+main .pages_container ul li {
+  list-style: none;
+  border: 1px solid black;
+  border-color: #dfe2e1;
+  border-radius: 4%;
+  padding: 10px;
+}
+main .pages_container ul li:nth-child(1) {
+  background-color: gray;
+}
+main .pages_container ul li:nth-child(1) a {
+  color: black;
+}
+main .pages_container ul li:nth-child(2) {
+  background-color: green;
+}
+main .pages_container ul li:nth-child(2) a {
+  color: white;
+}
+main .pages_container ul li a {
+  padding: 5px;
+}/*# sourceMappingURL=main-card.css.map */
