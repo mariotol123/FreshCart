@@ -1,4 +1,3 @@
-
 main .wrapper .container .link-main {
   display: flex;
   gap: 10px;
@@ -13,7 +12,7 @@ main .wrapper .container .link-main a:last-child {
 }
 main .wrapper .container .container-main {
   display: flex;
-  gap: 80px;
+  gap: 90px;
   margin-bottom: 80px;
   margin-top: 10px;
 }
@@ -168,3 +167,45 @@ main .wrapper .container .container-main .right .share-button {
   width: 90px;
   margin-top: 20px;
 }
+main .wrapper .container .container-under {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+main .wrapper .container .container-under div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .wrapper .container .container-under div p {
+  font-family: Inter, "sans-serif";
+  color: rgb(92, 108, 117);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+main .wrapper .container .h4-p {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+main .wrapper .container .h4-p div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .wrapper .container .h4-p div h4 {
+  font-size: 21px;
+  line-height: 25px;
+  font-family: Inter, "sans-serif";
+  font-weight: 600;
+  color: rgb(33, 49, 60);
+}
+main .wrapper .container .h4-p div p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  font-family: Inter, "sans-serif";
+  color: rgb(92, 108, 117);
+}/*# sourceMappingURL=main.css.map */
